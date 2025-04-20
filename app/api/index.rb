@@ -27,3 +27,8 @@ app.get("/user/:username/:repository") do |req, res|
     repository: req.param("repository")
   }.to_json)
 end
+
+app.notfound do |req, res|
+  res.type("text/plain")
+  res.send(200, "Hello from fallback route (notfound)")
+end
