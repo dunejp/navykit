@@ -1,8 +1,12 @@
 {
   "version": 2,
   "cleanUrls": true,
+  "builds": [{
+    "src": "/api/index.rb",
+    "use": "@vercel/ruby"
+  }],
   "rewrites": [{
-    "source": "(.*)",
+    "source": "/(.*)",
     "destination": "/api/index.rb"
   }]
 }
