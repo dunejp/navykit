@@ -6,7 +6,7 @@ end
 
 app.get("/") do |req, res|
   res.type("text/plain")
-  res.send(200, "Hello from /")
+  res.send(200, "Hello from /\n\nRoutes:\n/about\n/user/:username/\n/user/:username/:repository")
 end
 
 app.get("/about") do |req, res|
