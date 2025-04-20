@@ -74,7 +74,7 @@ class Navy
       rhandler = _route[:handler]
       
       params = get_params(path, rpath)
-      handler.call(Request.new(req, params), response)
+      rhandler.call(Request.new(req, params), response)
     elsif @fallback != nil
       @fallback.call(Request.new(req), response)
     else
