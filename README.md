@@ -1,2 +1,1 @@
-# navy
-A simple, lightweight server routing framework for Ruby
+> Working in progress... :construction:
