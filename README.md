@@ -31,3 +31,7 @@ Alternatively, you can install navy via gemfile:
 ```ruby
 gem 'navy_framework', '~> 1.0', '>= 1.0.2'
 ```
+
+## Live Demo
+
+For a live demo, go to [navy-demo-app.vercel.app](https://navy-demo-app.vercel.app/). It covers the basic use of static and dynamic routing.
