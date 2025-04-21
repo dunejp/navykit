@@ -1,6 +1,6 @@
-## NavyKit
+## NavyKit :blueberries:
 
-[![NavyKit](https://img.shields.io/gem/v/navykit?label=NavyKit)](https://rubygems.org/gems/navykit)
+[![NavyKit](https://img.shields.io/gem/v/navykit?label=NavyKit&color=dc3519)](https://rubygems.org/gems/navykit)
 
 NavyKit, formerly known as navy_framework, is a simple, lightweight server routing framework for Ruby that helps build web servers with ease. It provides the core functionalities to route requests and send responses, making it ideal for creating RESTful services or APIs with minimal overhead.
 
