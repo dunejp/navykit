@@ -1,11 +1,11 @@
-## navy
+## NavyKit
 
-Navy is a simple, lightweight server routing framework for Ruby that helps build web servers with ease. It provides the core functionalities to route requests and send responses, making it ideal for creating RESTful services or APIs with minimal overhead.
+[![NavyKit](https://img.shields.io/gem/v/navykit?label=NavyKit)](https://rubygems.org/gems/navykit)
 
-With support for custom route handling, dynamic parameters, and a fallback for unmatched routes, Navy is designed for developers who need a fast and flexible routing solution.
+NavyKit, formerly known as navy_framework, is a simple, lightweight server routing framework for Ruby that helps build web servers with ease. It provides the core functionalities to route requests and send responses, making it ideal for creating RESTful services or APIs with minimal overhead.
 
 ```ruby
-app = Navy.new
+app = NavyKit.new
 
 app.get("/greet/:name") do |req, res|
   name = req.param("name")
@@ -20,16 +20,10 @@ end
 
 ## Installation
 
-To install navy, install it on gem:
+NavyKit is available on [rubygems](https://rubygems.org/gems/navykit). To install NavyKit, install it on gem:
 
 ```
-gem install navy_framework
-```
-
-Alternatively, you can install navy via gemfile:
-
-```ruby
-gem 'navy_framework', '~> 1.0', '>= 1.0.2'
+gem install navykit
 ```
 
 ## Live Demo
