@@ -29,3 +29,7 @@ gem install navykit
 ## Live Demo
 
 For a live demo, go to [navy-demo-app.vercel.app](https://navy-demo-app.vercel.app/). It covers the basic use of static and dynamic routing.
+
+## Documentation
+
+Read the full documentation [here](https://clover-stallion-989.notion.site/NavyKit-1e114c1327fb80c4a9adf06dbc766844?pvs=74)
