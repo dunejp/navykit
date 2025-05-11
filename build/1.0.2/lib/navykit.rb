@@ -4,9 +4,10 @@ require 'cgi'
 
 class Request
   def initialize(real, params={})
+    uri = URI.parse(real.request_uri)
     @real = real
     @params = params
-    @query = CGI.parse(@real.request_uri).transform_values do |values|
+    @query = CGI.parse(uri.query || "").transform_values do |values|
       values.size == 1 ? values[0] : values
     end
   end
